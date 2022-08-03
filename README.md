@@ -12,6 +12,8 @@ I have included tutorial-style jupyter notebooks, pre-trained models, and exempl
 
 ## List of Modules
 
-* tilt_and_azimuth_inference – If all you have is some measurement data from a PV system and you would to find out its tilt and azimuth angles, this module has got you covered. 
-* inverse_pv_yield_model – If you would like to transpore your measurement data back into ghi, dni, and dhi irradiance data, this module is for you. 
-* 
+* tilt_and_azimuth_inference: If all you have is some measurement data from a PV system and you would to find out its tilt and azimuth angles, this module has got you covered. 
+* inverse_pv_yield_model: If you would like to transpore your measurement data back into ghi, dni, and dhi irradiance data, this module is for you. 
+* data_cleaning_module: If you need some powerful functions to clean you PV system measurement data to prepare it for your 
+ 
+  – remove night values
