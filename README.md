@@ -8,7 +8,7 @@ Copyright (c) 2022 Nikolaus Houben
 
 This repository is a collection of useful python modules for PV System Engineering. They make use of the core functionalities of the pvlib package, but extend these for specific problems I had to solve within my own research. 
 
-I have included tutorial-style jupyter notebooks, pre-trained models, and exemplary data, which should allow you to make full use of this repo in no time. 
+I have included a tutorial-style jupyter notebook, pre-trained models, and exemplary data, which should allow you to make full use of this repo in no time. 
 
 ## List of Modules
 
