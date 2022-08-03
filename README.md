@@ -1,8 +1,8 @@
-# PV Utility Suite
-
 Copyright (c) 2022 Nikolaus Houben
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+# PV Utility Suite
 
 ## Prelude
 
