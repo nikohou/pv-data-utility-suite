@@ -1,0 +1,12 @@
+module_type:
+  brand:
+  kWp_ac:
+  inverter:
+
+orientation:
+  tilt_angle:
+  azimuth_angle:
+location:
+  latitude:
+  longitude:
+  timezone:
