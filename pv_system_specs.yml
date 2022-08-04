@@ -1,11 +1,12 @@
+---
 module_type:
   brand:
   kWp_ac:
   inverter:
 
 orientation:
-  tilt_angle:
-  azimuth_angle:
+  tilt_angle: 27
+  azimuth_angle: 170
 location:
   latitude:
   longitude:
