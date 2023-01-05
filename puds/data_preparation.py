@@ -15,6 +15,7 @@ __all__ = ["get_timestep_interval"]
 import numpy as np
 import pandas as pd
 from scipy import stats
+from pvlib import irradiance
 
 
 def get_timestep_interval(df):
@@ -33,8 +34,9 @@ def reindexer(df, ts_freq: int):
     return df.reindex(pd.date_range(df.index[0], df.index[-1], freq=str(ts_freq) + "S"))
 
 
-def pv_day_filter(data, site, tilt, azimuth, timesteplen):
+def pv_day_filter(data, lat, lon, tilt, azimuth, timesteplen):
 
+    site = Location(lat, lon)
     index = data.index
     times = pd.date_range(index[0], index[-1], freq=str(timesteplen) + "T")
     clearsky = site.get_clearsky(times)
@@ -55,4 +57,3 @@ def pv_day_filter(data, site, tilt, azimuth, timesteplen):
     data_day_values = data.reindex(day_index).dropna()
 
     return data_day_values
-
